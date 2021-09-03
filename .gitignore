@@ -133,3 +133,8 @@ dmypy.json
 *.json
 .vscode/
 *.yaml
+*.pt
+*.ttf
+*.out
+model_train/
+wandb/

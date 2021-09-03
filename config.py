@@ -8,6 +8,7 @@ class config:
     names = [ 'Pedestrian', 'Cyclist', 'Car', 'Truck', 'Van']  # the name of classes for detection
     val = '/mnt/disk/TJU-DHD/dhd_traffic/val.txt'  # the path of the dataset for val
 
-    batch_size = 96
-    device = 1
-    epoch_num = 40
+    # for yolov5 training
+    batch_size = 96  # the size of a training batch
+    device = 2  # the device selected for training
+    epoch_num = 40  # the number of training epoch
