@@ -8,7 +8,7 @@ Task in AI is defined as a tuple which combines the training set, model and the 
 
 ## What will we do?
 
-We will first focus on the inference of yolov5 models for mobile agents such as smart cars. We will try to divide the whole dataset to multi tasks which will work better in different scenarios and then select the best one for inference. We think this way will get a set of model with better performance and smaller space.
+We will first focus on the inference of yolov3 models for mobile agents such as smart cars. We will try to divide the whole dataset to multi tasks which will work better in different scenarios and then select the best one for inference. We think this way will get a set of model with better performance and smaller space.
 
 We think there are two possible ways:
 
@@ -19,3 +19,11 @@ All the samples can be seen as a task and the other tasks will be generated from
 ### Bottom up
 
 Each sample can be seen as a task and then the final tasks will be generated from tasks merging.
+
+## Quick Start
+
+This project is built on mmDetection. The supported dataset is BDD and Cityscape. For the running of cityscape, please run the file: forest_train_cityscape.py; For the running of bdd, please run the file: forest_train_bdd.py.
+
+## Related Publishment
+
+Zheng Z, Li Y, Song H, et al. Towards Edge-Cloud Collaborative Machine Learning: A Quality-aware Task Partition Framework[C]//Proceedings of the 31st ACM International Conference on Information & Knowledge Management. 2022: 3705-3714.
